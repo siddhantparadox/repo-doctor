@@ -189,6 +189,12 @@ Repo Doctor includes cost estimation for API calls. The default rates for `z-ai/
 5. **Diff Extraction**: Parses the response to extract the unified diff
 6. **PR Comment**: Posts the diff as a comment on the PR (in CI mode)
 
+## Future Plans
+
+- **PyPI Distribution**: Planning to publish Repo Doctor on PyPI for easy installation via `pip install repo-doctor`
+- **IDE Integration**: VS Code extension and other IDE plugins
+- **Advanced Patch Strategies**: More sophisticated diff generation and application methods
+
 ## License
 
 This project is open source and available under the MIT License.
