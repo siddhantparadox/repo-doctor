@@ -1,0 +1,8 @@
+[project]
+name = "repo-doctor"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32.5", "typer>=0.16.1", "rich>=14.1.0"]
+
+[project.scripts]
+repo-doctor = "repo_doctor.cli:app"
